@@ -140,14 +140,14 @@ function main(input) {
   //   }else if (temp[2]==16) {
   //     convert(binaryToHexa(deciToBinary(temp[0])),hex,hexCount);
   //   }
-  // }else if (temp[1] == 8) {
-  //   if (temp[2] == 2) {
-  //     console.log(toBinaty(temp[0],oct,octCount))
-  //   }else if (temp[2] == 10) {
-  //     binaryToDecimal(toBinaty(temp[0],oct,octCount))
-  //   }else if (temp[2] == 16) { 
-  //     convert(binaryToHexa(toBinaty(temp[0],oct,octCount)),hex,hexCount)
-  //   }
+  }else if (temp[1] == 8) {
+    if (temp[2] == 2) {
+      console.log(toBinaty(temp[0],oct,octCount))
+    }else if (temp[2] == 10) {
+      binaryToDecimal(toBinaty(temp[0],oct,octCount))
+    }else if (temp[2] == 16) { 
+      convert(binaryToHexa(toBinaty(temp[0],oct,octCount)),hex,hexCount)
+    }
   // }else if (temp[1] == 16) {
   //   if (temp[2]==2) {
   //     console.log(toBinaty(temp[0],hex,hexCount))
